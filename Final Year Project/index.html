@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS BOOTSTRAP CDN LINK -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <style>
+    body {
+      background-color: #06283D;
+      margin: 0%;
+      padding: 0%;
+    }
+
+    .container {
+      margin-top: 10%;
+    }
+
+    .content-container {
+      float: left;
+      border: 2px solid green;
+      padding: 10px;
+      color: white;
+    }
+
+    img {
+      float: right;
+      border-radius: 20px;
+    }
+
+    .form-container {
+      color: white;
+      font-weight: 500;
+      width: auto;
+      /* border: 2px solid black; */
+      border-radius: 20px;
+      padding: 10px;
+      text-align: left;
+      background-color: #327aa9;
+    }
+
+    label {
+      padding: 10px;
+    }
+
+    input {
+      border-radius: 5px;
+      border-color: #06283D;
+      padding: 5px;
+    }
+
+
+
+    /* Price Page Css */
+
+    .main-container {
+
+      color: white;
+      display: inline;
+      text-align: center;
+    }
+
+    .price-container {
+      text-align: left;
+      border: 2px solid green;
+      margin: 5% 24%;
+    }
+
+    .price-heading {
+      margin-top: 10%;
+      color: white;
+      text-align: center;
+    }
+  </style>
+
+  <title>Car Price Valuation</title>
+</head>
+
+<body>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-8">
+        <div class="content-container">
+          <h1>Car Price Valuation</h1>
+          <img src="img/car1.jpg" alt="car-image">
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui temporibus doloremque consectetur a! Reprehenderit harum sit nobis ea? Assumenda sed cumque quo perspiciatis! Velit quae maiores mollitia aliquam fuga totam? Modi iusto, ratione recusandae in, assumenda quisquam voluptatibus quibusdam similique repudiandae, sunt praesentium! Molestiae illo animi alias, ad reprehenderit magni possimus beatae architecto adipisci repellendus unde aliquam, perspiciatis, hic debitis neque at quo autem nam dolore praesentium amet. Voluptatum necessitatibus sequi voluptas tempora magni beatae saepe voluptatibus quos inventore dolore maiores fuga, dolores fugiat nihil magnam iusto exercitationem aspernatur libero suscipit? Maiores, nam adipisci perferendis porro corrupti saepe quis laboriosam. Voluptatum necessitatibus sequi voluptas tempora magni beatae saepe voluptatibus quos inventore dolore maiores fuga, dolores fugiat nihil magnam iusto exercitationem aspernatur</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="form-container">
+          <form action="#" class="form">
+            <label for="carNumber">Car Number:
+              <input type="text" name="carNumber" id="carNumber">
+            </label><br>
+            <label for="ownernNamr">Owner Name:
+              <input type="text" name="ownerName" id="ownerName">
+            </label><br>
+            <label for="regisYear">Registration Year
+              <input type="text" name="regisYear" id="regisYear">
+            </label><br>
+            <label for="fuel">Fuel:
+              <input type="text" name="fuel" id="fuel">
+            </label><br>
+            <label for="kms">Kilometers Drived:
+              <input type="text" name="kms" id="kms">
+            </label><br>
+            <button type="submit" class="btn btn-dark" name="submit">Calculate Price</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

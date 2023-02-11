@@ -1,0 +1,20 @@
+/* #9797D8
+#7272CA */
+.landingPage{
+    padding-top: 5%;
+    background-color: white;
+    margin: 5% 5%;
+    display: flex;
+    border-radius: 15px;
+}
+.image-container{
+    padding: 8% 0 0 7%;
+}
+.button1{
+    margin-bottom: 10px;
+    background-color: Indigo;
+}
+.button1:hover{
+    background-color: mediumpurple;
+    transition: 1s;
+}
